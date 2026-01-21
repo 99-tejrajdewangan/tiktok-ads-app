@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 TikTok Ads Creative Flow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application simulating TikTok Ads creation flow with OAuth integration, real-time validation, and comprehensive error handling.
 
-Currently, two official plugins are available:
+## 📋 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Secure OAuth 2.0 Integration** - Mock TikTok Ads account connection
+- **Smart Form Validation** - Real-time field validation with custom rules
+- **Conditional Music Selection** - Dynamic music options based on campaign objective
+- **Comprehensive Error Handling** - User-friendly error messages for all API scenarios
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Mock API Service** - Simulated TikTok Ads API with realistic responses
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** - Latest version with hooks
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Hook Form** - Form validation library
+- **React Router DOM** - Client-side routing
+- **Lucide React** - Beautiful icon library
+- **React Hot Toast** - Toast notifications
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js 18+ and npm/yarn
+
+### Installation
+
+1. **Clone and setup:**
+```bash
+# Create project
+npm create vite@latest tiktok-ads-creative-flow -- --template react
+cd tiktok-ads-creative-flow
+
+# Install dependencies
+npm install react-router-dom axios react-hook-form react-hot-toast lucide-react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Copy project files or create them as shown above
