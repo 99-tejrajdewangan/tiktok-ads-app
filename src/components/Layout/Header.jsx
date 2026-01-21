@@ -13,7 +13,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900 leading-tight">
-                TikTok Ads Creative Flow
+                TikTok Ads Creator
               </h1>
             </div>
           </div>
