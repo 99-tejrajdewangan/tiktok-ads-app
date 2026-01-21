@@ -136,5 +136,5 @@ export const logout = () => {
 export const getOAuthConfig = () => ({
   ...MOCK_CONFIG,
   authUrl: "https://www.tiktok.com/v2/auth/authorize/",
-  tokenUrl: "https://open.tiktokapis.com/v2/oauth/token",
+  tokenUrl: "https://open-api.tiktok.com/oauth/access_token/",
 });
