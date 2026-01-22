@@ -12,7 +12,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="oauth-callback" element={<OAuthCallbackPage />} />
+            <Route path="oauth/callback" element={<OAuthCallbackPage />} />
           </Routes>
         </Layout>
         <Toaster position="top-right" />

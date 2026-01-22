@@ -7,7 +7,7 @@ const MOCK_CONFIG = {
   clientSecret:
     import.meta.env.VITE_TIKTOK_CLIENT_SECRET || "umlepBKEAajskmyYG0ASrGkT9iRpYNnn",
   redirectUri:
-    import.meta.env.VITE_REDIRECT_URI || "https://tiktok-ads-app.vercel.app/oauth-callback",
+    import.meta.env.VITE_REDIRECT_URI || "https://tiktok-ads-app.vercel.app/oauth/callback",
   apiBaseUrl: "https://www.tiktok.com/v2/auth/authorize/",
 };
 
