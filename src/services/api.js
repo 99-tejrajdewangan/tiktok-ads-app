@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for TikTok API
-const BASE_URL = 'https://mock-api.tiktok.com';
+const BASE_URL = 'https://www.tiktok.com/v2/auth/authorize/';
 
 const api = axios.create({
   baseURL: BASE_URL,
