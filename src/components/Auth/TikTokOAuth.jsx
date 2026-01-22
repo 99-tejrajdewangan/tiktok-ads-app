@@ -6,7 +6,7 @@ const TikTokOAuth = () => {
   const TIKTOK_OAUTH_URL = "https://www.tiktok.com/v2/auth/authorize/";
 
   const handleOAuth = () => {
-    const clientId = import.meta.env.VITE_TIKTOK_CLIENT_ID || "demo_client_id";
+    const clientId = import.meta.env.VITE_TIKTOK_CLIENT_ID || "sbawp2iojmpyshij6c";
     const redirectUri = `${window.location.origin}/oauth-callback`;
     const scope = "ads.management";
 
