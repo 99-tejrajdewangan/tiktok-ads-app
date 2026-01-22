@@ -7,7 +7,7 @@ const TikTokOAuth = () => {
 
   const handleOAuth = () => {
     const clientId = import.meta.env.VITE_TIKTOK_CLIENT_ID || "sbawlaarlcgzs22yyt";
-    const redirectUri = `${window.location.origin}/oauth-callback`;
+    const redirectUri = `${window.location.origin}/oauth/callback`;
     const scope = "ads.management";
 
     // Generate a secure state parameter
