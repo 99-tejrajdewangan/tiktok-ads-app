@@ -114,7 +114,7 @@ const AdCreationForm = ({ accessToken }) => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold py-4 px-6 rounded-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
           >
             {isSubmitting ? (
               <span className="flex items-center justify-center">
