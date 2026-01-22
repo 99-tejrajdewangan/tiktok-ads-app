@@ -3,11 +3,11 @@ import { ERROR_MESSAGES } from "../utils/errorMessages";
 
 // Mock OAuth configuration
 const MOCK_CONFIG = {
-  clientId: import.meta.env.VITE_TIKTOK_CLIENT_ID || "mock_client_id",
+  clientId: import.meta.env.VITE_TIKTOK_CLIENT_ID || "sbawp2iojmpyshij6c",
   clientSecret:
-    import.meta.env.VITE_TIKTOK_CLIENT_SECRET || "mock_client_secret",
+    import.meta.env.VITE_TIKTOK_CLIENT_SECRET || "yWg6q2nKsi5MylWgass3cPYYJxNDixSi",
   redirectUri:
-    import.meta.env.VITE_REDIRECT_URI || "https://tiktok-ads-app-git-main-tejraj-dewangans-projects.vercel.app/oauth-callback",
+    import.meta.env.VITE_REDIRECT_URI || "https://tiktok-ads-app-tejraj-dewangans-projects.vercel.app/oauth-callback",
   apiBaseUrl: "https://www.tiktok.com/v2/auth/authorize/",
 };
 
